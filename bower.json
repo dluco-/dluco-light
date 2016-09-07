@@ -1,0 +1,21 @@
+{
+  "name": "dluco-light",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Dennis Olsson @ dluco."
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dluco-/dluco-light",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
