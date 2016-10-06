@@ -5,30 +5,75 @@
   <meta charset="utf-8">
   <title>dluco.</title>
   <link rel="stylesheet" href="dist/semantic.min.css">
-
   <style>
+    body {
+      transition: background ease-in-out 200ms;
+    }
+    
     .masthead {
-      /*background: url('http://media.wettern.nu/2014/10/bkg.jpg');*/
       height: 100vh;
     }
   </style>
 </head>
 
-<body>
-
+<body class="dimmable dimmed">
+  <div class="ui active page dimmer">
+    <div class="ui huge loader"></div>
+  </div>
   <div class="ui masthead middle aligned centered grid">
     <div class="center aligned column">
-      <h1 class="ui header">dluco.</h1>
-      <div class="ui compact text menu">
-        <a href="http://se.linkedin.com/pub/dennis-olsson/66/598/213" target="_new" class="header item">LinkedIn</a>
-        <a href="https://github.com/dluco-" target="_new" class="header item">Github</a>
-        <!--<a target="_new" class="header item">Previous Work</a>-->
+      <img class="ui middle aligned small image" src="img/dluco_white.svg" alt="dluco.">
+      <h1 class="ui inverted header">
+        Hi. My name is
+        <s>dluco.</s> Dennis.
+        <div class="sub header">
+          Fullstack developer based in Sweden. Feel free to watch my previous work <br>or contact me at <a href="mailto:dennis@dluco.se">dennis@dluco.se</a>.</div>
+      </h1>
+      <div class="ui massive inverted secondary compact menu">
+        <div class="ui fitted item">
+          <a href="https://github.com/dluco-" target="_new" class="ui inverted compact button">Github</a>
+        </div>
+        <div class="ui fitted item">
+          <a href="http://se.linkedin.com/pub/dennis-olsson/66/598/213" target="_new" class="ui inverted compact button">LinkedIn</a>
+        </div>
+        <!--<div class="ui fitted item">
+          <a target="_new" class="ui inverted compact button">Previous Work</a>
+        </div>-->
       </div>
     </div>
   </div>
 
   <script src="libs/jquery/dist/jquery.min.js"></script>
   <script src="dist/semantic.min.js"></script>
+
+  <script>
+    $(function(){
+
+      // Random backgorund color
+      var color = function(){
+      var key = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
+      switch (key) {
+        case 1:
+            return "#30ca97";
+        case 2:
+          return "#00caca";
+        case 3:
+          return "#0085a1";
+        }
+        return "#0085a1";
+      };
+
+      // Loader
+      setTimeout(function(){
+        $('.dimmable').dimmer('hide');
+      },50);
+
+      // Background color
+      setInterval(function(){
+        $("body").css("background", color());
+      },10000)
+    });
+  </script>
 </body>
 
 </html>

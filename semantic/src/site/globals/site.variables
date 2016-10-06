@@ -2,5 +2,8 @@
      User Global Variables
 *******************************/
 
-@fontName          : 'Open Sans';
-@pageBackground      : #fafafb;
+@fontName          : 'Roboto';
+@pageBackground      : #0085a1;
+
+@linkColor           : #fefefe;
+@linkHoverColor      : rgba(255,255,255,.8);
