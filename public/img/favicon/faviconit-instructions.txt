@@ -1,0 +1,25 @@
+thanks for using faviconit!
+copy the files to your site and add this code inside the HTML <HEAD> tag:
+
+	<!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="img/favicon/dluco..ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon/dluco..ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon/dluco.-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="img/favicon/dluco.-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/dluco.-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="img/favicon/dluco.-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/dluco.-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/dluco.-16.png">
+	<link rel="apple-touch-icon" href="img/favicon/dluco.-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/dluco.-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/dluco.-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/dluco.-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/dluco.-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/dluco.-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/dluco.-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/dluco.-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/dluco.-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="img/favicon/dluco.-144.png">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
